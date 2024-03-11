@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <ImageButton
+        android:id="@+id/i1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="234dp"
+        android:layout_marginBottom="503dp"
+        android:contentDescription="computer"
+        android:gravity="center"
+        android:onClick="cs"
+        android:scaleType="fitCenter"
+        android:background="@drawable/circle_purple"
+        android:src="@drawable/baseline_event_note_24" />
+
+    <ImageButton
+        android:id="@+id/i2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="79dp"
+        android:layout_marginBottom="506dp"
+        android:contentDescription="info"
+        android:gravity="center"
+        android:onClick="it"
+        android:background="@drawable/circle_red"
+        android:scaleType="fitCenter"
+        android:src="@drawable/baseline_question_answer_24" />
+
+    <ImageButton
+        android:id="@+id/i4"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="225dp"
+        android:layout_marginBottom="316dp"
+        android:background="@drawable/circle_pink"
+        android:contentDescription="mechanical"
+        android:gravity="center"
+        android:onClick="me"
+        android:scaleType="fitCenter"
+        android:src="@drawable/baseline_notes_24" />
+
+    <ImageButton
+        android:id="@+id/i5"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="69dp"
+        android:layout_marginBottom="320dp"
+        android:background="@drawable/circle_yellow"
+        android:contentDescription="production"
+        android:gravity="center"
+        android:onClick="pd"
+        android:scaleType="fitCenter"
+        android:src="@drawable/baseline_check_circle_24" />
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="207dp"
+        android:layout_marginBottom="478dp"
+        android:text="NOTICE"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/t2"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="71dp"
+        android:layout_marginBottom="467dp"
+        android:text="PREVIOUS YERAS PAPERS"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/t4"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="205dp"
+        android:layout_marginBottom="290dp"
+        android:text="NOTES"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/t5"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="39dp"
+        android:layout_marginBottom="297dp"
+        android:text="MCQs"
+        android:textColor="@color/black" />
+
+
+</RelativeLayout>
